@@ -1,0 +1,11 @@
+import { SignUp } from '@clerk/nextjs'
+
+export default function Page() {
+  return <div> 
+      classname="flex flex-col items-center justify-center h-screen bg-gray-100"
+      
+      <SignUp /> 
+    
+    
+    </div>
+}
